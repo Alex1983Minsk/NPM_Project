@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: $m-0;
+    padding: $p-0;
+
+    background-color: $primary_color;
+}
+a {
+    text-decoration: none;
+    color: $color-white;
+    
+}
+
+a:hover {
+    text-decoration: none;
+    color: $color-violet;
+    @include transition;
+}

@@ -1,0 +1,61 @@
+.header {
+    background-color: $color-gray;
+    max-width: 100vw;
+    height: 25vh;
+    padding: $font-10;
+    @include flex;
+
+    &__icons {
+        
+        border: 1px solid $secondary_color;
+        border-radius: $font-16;
+        margin: $m-1;
+        @include flex;
+    
+        &_lists {
+            @include flex;
+
+                &--list {
+                    margin: $m-1;
+                    padding: $p-1;
+                }
+         }
+            
+    }
+
+    &__products {
+        
+        border: 1px solid $secondary_color;
+        border-radius: $font-16;
+        margin: $m-4;
+        @include flex;
+    
+        &_lists {
+            @include flex;
+
+            &--list {
+                margin: $m-1;
+                padding: $p-1;
+               
+            }
+        }
+    }
+
+    &__menu {
+        
+        border: 1px solid $secondary_color;
+        border-radius: $font-16;
+        margin: $m-3;
+        @include flex;
+
+        &_lists {
+            @include flex;
+                                  
+            &--list {
+                margin: $m-1;
+                padding: $p-1;
+
+             }
+        }
+    }
+}
