@@ -1,57 +1,18 @@
 .footer {
-    background-color: $color-blue;
-    max-width: 100vw;
-    height: 25vh;
-    padding: $font-10;
-    display: flex;
- 
-    &__icons {
-        display: flex;
-        border: 1px solid $secondary_color;
-        border-radius: $font-16;
-        margin: $m-3;
-    
+  @include flex();
+  position: relative;
 
-        &_lists {
-            display: flex;
-                &--list {
-                    margin: $m-1;
-                    padding: $p-1;
-                }
-        }
-    }
+  width: 100%;
+  height: 15rem;
+  padding: $p-2;
 
-    &__products {
-        display: flex;
-        border: 1px solid $secondary_color;
-        border-radius: $font-16;
-        margin: $m-3;
-    
-        &_lists {
-            display: flex;
+  background-color: $color-violet--darken;
+  clip-path: polygon(100% 35vh, 100% 15vh, 100% 0, 0 100%);
 
-            &--list {
-                margin: $m-1;
-                padding: $p-1;
-
-            }
-        }
-    }
-
-    &__menu {
-        display: flex;
-        border: 1px solid $secondary_color;
-        border-radius: $m-2;
-        margin: $m-3;
-
-        &_lists {
-            display: flex;
-                                  
-            &--list {
-                margin: $m-1;
-                padding: $p-1;
-            }
-        }
-    }
+  &-navbar {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
 }
 
