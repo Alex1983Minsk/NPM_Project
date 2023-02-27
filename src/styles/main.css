@@ -215,6 +215,14 @@ a {
   border-bottom: 1px solid #ce3192;
 }
 
+.back {
+  color: #ce3192;
+}
+.back:hover {
+  color: #2a0b3b;
+  border-bottom: 1px solid #2a0b3b;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
